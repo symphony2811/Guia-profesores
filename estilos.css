@@ -1,0 +1,930 @@
+/*====================================
+    ESTILOS GENERALES
+====================================*/
+
+body{
+
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#EAF2F8;
+    color:#2C3E50;
+
+}
+
+.contenedor{
+
+    width:1100px;
+    margin:25px auto;
+    background:#FFFFFF;
+    box-shadow:0px 0px 25px #999999;
+    border-radius:15px;
+    overflow:hidden;
+
+}
+
+/*====================================
+    MENU
+====================================*/
+
+.menu{
+
+    background:#154360;
+    text-align:center;
+    padding:18px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+}
+
+.menu a{
+
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    margin:25px;
+    transition:.3s;
+
+}
+
+.menu a:hover{
+
+    color:#F4D03F;
+
+}
+
+/*====================================
+    ENCABEZADO
+====================================*/
+
+.encabezado{
+
+    background:linear-gradient(#21618C,#1B4F72);
+    color:white;
+    text-align:center;
+    padding:45px;
+
+}
+
+.encabezado h1{
+
+    font-size:48px;
+    margin:0;
+
+}
+
+.encabezado h2{
+
+    font-size:26px;
+    margin-top:15px;
+    color:#F7DC6F;
+
+}
+
+.encabezado p{
+
+    width:80%;
+    margin:auto;
+    margin-top:20px;
+    line-height:30px;
+    font-size:18px;
+
+}
+
+/*====================================
+    BANNER
+====================================*/
+
+.banner img{
+
+    width:100%;
+    height:420px;
+    display:block;
+
+}
+
+/*====================================
+    INTRODUCCION
+====================================*/
+
+.introduccion{
+
+    margin:30px;
+    padding:25px;
+    background:#EBF5FB;
+    border-left:10px solid #3498DB;
+    border-radius:15px;
+
+}
+
+.introduccion:hover{
+
+    box-shadow:0px 0px 20px #A9CCE3;
+
+}
+
+/*====================================
+    OBJETIVOS
+====================================*/
+
+.objetivos{
+
+    margin:30px;
+    padding:25px;
+    background:#FDFEFE;
+    border-left:10px solid #27AE60;
+    border-radius:15px;
+
+}
+
+.objetivos ul{
+
+    line-height:35px;
+    font-size:18px;
+
+}
+
+/*====================================
+    PERFIL
+====================================*/
+
+.perfil{
+
+    margin:30px;
+    padding:25px;
+    background:#FCF3CF;
+    border-left:10px solid #F1C40F;
+    border-radius:15px;
+
+}
+
+/*====================================
+    PLANEACION
+====================================*/
+
+.planeacion{
+
+    margin:30px;
+    padding:25px;
+
+}
+
+.planeacion table{
+
+    width:100%;
+    border-collapse:collapse;
+
+}
+
+.planeacion th{
+
+    background:#2471A3;
+    color:white;
+    padding:15px;
+
+}
+
+.planeacion td{
+
+    border:1px solid #D6DBDF;
+    padding:12px;
+    text-align:center;
+
+}
+
+.planeacion tr:nth-child(even){
+
+    background:#F8F9F9;
+
+}
+
+/*====================================
+    ESTRATEGIAS
+====================================*/
+
+.estrategias{
+
+    margin:30px;
+
+}
+
+.tarjeta{
+
+    background:white;
+    border-radius:15px;
+    padding:20px;
+    margin-top:20px;
+    box-shadow:0px 5px 15px #D5D8DC;
+    transition:.3s;
+
+}
+
+.tarjeta:hover{
+
+    transform:translateY(-5px);
+    box-shadow:0px 10px 20px #ABB2B9;
+
+}
+
+/*====================================
+    CONSEJOS
+====================================*/
+
+.consejos{
+
+    margin:30px;
+    padding:25px;
+    background:#E8F8F5;
+    border-left:10px solid #16A085;
+    border-radius:15px;
+
+}
+
+.consejos ul{
+
+    line-height:35px;
+    font-size:18px;
+
+}
+
+/*====================================
+    TITULOS
+====================================*/
+
+h3{
+
+    color:#154360;
+    font-size:30px;
+    border-bottom:3px solid #5DADE2;
+    padding-bottom:10px;
+
+}
+
+h4{
+
+    color:#2471A3;
+
+}
+
+/*====================================
+    PARRAFOS
+====================================*/
+
+p{
+
+    line-height:30px;
+    text-align:justify;
+    font-size:17px;
+
+}
+/*====================================
+    HERRAMIENTAS
+====================================*/
+
+.herramientas{
+
+    margin:30px;
+    padding:25px;
+    background:#F4F6F7;
+    border-radius:15px;
+
+}
+
+.herramientas .tarjeta{
+
+    border-left:8px solid #5DADE2;
+
+}
+
+.herramientas .tarjeta:hover{
+
+    border-left:8px solid #F4D03F;
+
+}
+
+/*====================================
+    MATERIAL
+====================================*/
+
+.material{
+
+    margin:30px;
+    padding:25px;
+    background:#EBF5FB;
+    border-radius:15px;
+
+}
+
+.material ul{
+
+    columns:2;
+    line-height:35px;
+    font-size:18px;
+
+}
+
+/*====================================
+    GALERIA
+====================================*/
+
+.galeria{
+
+    margin:30px;
+    text-align:center;
+
+}
+
+.galeria img{
+
+    width:300px;
+    height:200px;
+    margin:15px;
+    border-radius:15px;
+    box-shadow:0px 5px 15px #BFC9CA;
+    transition:.4s;
+
+}
+
+.galeria img:hover{
+
+    transform:scale(1.08);
+    box-shadow:0px 10px 25px #7F8C8D;
+
+}
+
+/*====================================
+    VIDEO
+====================================*/
+
+.video{
+
+    margin:30px;
+    text-align:center;
+    background:#FDFEFE;
+    padding:25px;
+    border-radius:15px;
+
+}
+
+.video iframe{
+
+    border-radius:15px;
+    box-shadow:0px 8px 20px #AEB6BF;
+
+}
+
+/*====================================
+    ACTIVIDAD
+====================================*/
+
+.actividad{
+
+    margin:30px;
+    padding:25px;
+    background:#FEF9E7;
+    border-left:10px solid #F1C40F;
+    border-radius:15px;
+
+}
+
+/*====================================
+    DINAMICAS
+====================================*/
+
+.dinamicas{
+
+    margin:30px;
+    padding:25px;
+    background:#EAFAF1;
+    border-left:10px solid #2ECC71;
+    border-radius:15px;
+
+}
+
+.dinamicas ol{
+
+    line-height:35px;
+    font-size:18px;
+
+}
+
+/*====================================
+    EVALUACION
+====================================*/
+
+.evaluacion{
+
+    margin:30px;
+    padding:25px;
+
+}
+
+.evaluacion table{
+
+    width:100%;
+    border-collapse:collapse;
+
+}
+
+.evaluacion th{
+
+    background:#1F618D;
+    color:white;
+    padding:15px;
+
+}
+
+.evaluacion td{
+
+    border:1px solid #D6DBDF;
+    text-align:center;
+    padding:15px;
+
+}
+
+.evaluacion tr:nth-child(even){
+
+    background:#F8F9F9;
+
+}
+
+/*====================================
+    ERRORES
+====================================*/
+
+.errores{
+
+    margin:30px;
+    padding:25px;
+    background:#FDEDEC;
+    border-left:10px solid #E74C3C;
+    border-radius:15px;
+
+}
+
+.errores ul{
+
+    line-height:35px;
+    font-size:18px;
+
+}
+
+/*====================================
+    FRASE
+====================================*/
+
+.frase{
+
+    margin:40px;
+    padding:35px;
+    text-align:center;
+    background:linear-gradient(#2E86C1,#21618C);
+    color:white;
+    border-radius:20px;
+    font-size:22px;
+    font-style:italic;
+    box-shadow:0px 10px 25px #85929E;
+
+}
+
+/*====================================
+    EFECTO GENERAL
+====================================*/
+
+.introduccion:hover,
+.objetivos:hover,
+.perfil:hover,
+.planeacion:hover,
+.herramientas:hover,
+.material:hover,
+.actividad:hover,
+.dinamicas:hover,
+.evaluacion:hover,
+.errores:hover{
+
+    transition:.3s;
+    transform:translateY(-3px);
+
+}
+
+/*====================================
+    LISTAS
+====================================*/
+
+ul{
+
+    padding-left:25px;
+
+}
+
+ol{
+
+    padding-left:30px;
+
+}
+
+li{
+
+    margin-bottom:8px;
+
+}
+/*====================================
+    PREGUNTAS FRECUENTES
+====================================*/
+
+.preguntas{
+
+    margin:30px;
+    padding:25px;
+    background:#F8F9F9;
+    border-radius:15px;
+
+}
+
+.faq{
+
+    background:white;
+    padding:20px;
+    margin-top:20px;
+    border-left:8px solid #3498DB;
+    border-radius:10px;
+    box-shadow:0px 5px 10px #D5D8DC;
+    transition:.3s;
+
+}
+
+.faq:hover{
+
+    border-left:8px solid #F4D03F;
+    transform:translateX(8px);
+
+}
+
+.faq h4{
+
+    margin:0;
+    color:#1F618D;
+
+}
+
+/*====================================
+    CALENDARIO
+====================================*/
+
+.calendario{
+
+    margin:30px;
+    padding:25px;
+
+}
+
+.calendario table{
+
+    width:100%;
+    border-collapse:collapse;
+
+}
+
+.calendario th{
+
+    background:#21618C;
+    color:white;
+    padding:15px;
+
+}
+
+.calendario td{
+
+    border:1px solid #D6DBDF;
+    padding:12px;
+    text-align:center;
+
+}
+
+.calendario tr:nth-child(even){
+
+    background:#EBF5FB;
+
+}
+
+/*====================================
+    SEGUIMIENTO
+====================================*/
+
+.seguimiento{
+
+    margin:30px;
+    padding:25px;
+
+}
+
+.seguimiento table{
+
+    width:100%;
+    border-collapse:collapse;
+
+}
+
+.seguimiento th{
+
+    background:#27AE60;
+    color:white;
+    padding:15px;
+
+}
+
+.seguimiento td{
+
+    border:1px solid #D5DBDB;
+    padding:12px;
+    text-align:center;
+
+}
+
+.seguimiento tr:nth-child(even){
+
+    background:#EAFAF1;
+
+}
+
+/*====================================
+    FORMULARIO
+====================================*/
+
+.contacto{
+
+    margin:30px;
+    padding:30px;
+    background:#EBF5FB;
+    border-radius:20px;
+
+}
+
+.contacto input,
+.contacto textarea{
+
+    width:95%;
+    padding:12px;
+    margin-top:8px;
+    margin-bottom:18px;
+
+    border:1px solid #AEB6BF;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+}
+
+.contacto textarea{
+
+    resize:vertical;
+
+}
+
+.contacto input[type=submit]{
+
+    width:180px;
+
+    background:#21618C;
+
+    color:white;
+
+    cursor:pointer;
+
+    border:none;
+
+}
+
+.contacto input[type=submit]:hover{
+
+    background:#154360;
+
+}
+
+.contacto input[type=reset]{
+
+    width:180px;
+
+    background:#BFC9CA;
+
+    cursor:pointer;
+
+    border:none;
+
+}
+
+.contacto input[type=reset]:hover{
+
+    background:#85929E;
+    color:white;
+
+}
+
+/*====================================
+    DESCARGA
+====================================*/
+
+.descarga{
+
+    margin:40px;
+    text-align:center;
+
+}
+
+.descarga a{
+
+    background:#28B463;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:18px 35px;
+
+    border-radius:12px;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.descarga a:hover{
+
+    background:#1D8348;
+
+    box-shadow:0px 5px 15px #7DCEA0;
+
+}
+
+/*====================================
+    ENLACES
+====================================*/
+
+.enlaces{
+
+    margin:30px;
+    padding:25px;
+    background:#FDFEFE;
+    border-radius:15px;
+
+}
+
+.enlaces a{
+
+    color:#2471A3;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+}
+
+.enlaces a:hover{
+
+    color:#D68910;
+
+}
+
+/*====================================
+    CREDITOS
+====================================*/
+
+.creditos{
+
+    margin:30px;
+    padding:30px;
+    background:#F4F6F6;
+    text-align:center;
+    border-radius:15px;
+
+}
+
+/*====================================
+    PIE DE PAGINA
+====================================*/
+
+.pie{
+
+    background:#154360;
+
+    color:white;
+
+    text-align:center;
+
+    padding:35px;
+
+}
+
+.pie h2{
+
+    margin-top:0;
+
+    color:#F7DC6F;
+
+}
+
+.pie p{
+
+    color:white;
+
+    text-align:center;
+
+}
+
+/*====================================
+    EFECTOS GENERALES
+====================================*/
+
+table{
+
+    box-shadow:0px 5px 15px #D5D8DC;
+
+}
+
+img{
+
+    max-width:100%;
+
+}
+
+input:focus,
+textarea:focus{
+
+    outline:none;
+
+    border:2px solid #3498DB;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+h1,h2,h3,h4{
+
+    font-family:Georgia, "Times New Roman", serif;
+
+}
+
+section,
+div{
+
+    transition:.3s;
+
+}
+
+/*====================================
+    RESPONSIVE BASICO
+====================================*/
+
+@media screen and (max-width:1100px){
+
+.contenedor{
+
+    width:95%;
+
+}
+
+.banner img{
+
+    height:auto;
+
+}
+
+.galeria img{
+
+    width:90%;
+    height:auto;
+
+}
+
+.menu a{
+
+    display:block;
+    margin:10px;
+
+}
+
+.contacto input,
+.contacto textarea{
+
+    width:90%;
+
+}
+
+.video iframe{
+
+    width:95%;
+    height:350px;
+
+}
+
+}
